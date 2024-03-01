@@ -1,0 +1,59 @@
+html {
+    font-family: Calibri;
+}
+
+#cartes {
+    margin-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.couleur {
+    border: 2px solid silver;
+    border-radius: 5px;
+    float: left;
+    min-height: 230px;
+    height: auto;
+    margin: 2px;
+    padding: 2px;
+    width: 300px;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    padding: 2px 2px 2px 2px;
+}
+
+p {
+    text-align: center;
+}
+
+.couleur p{ margin:5px 0; }
+
+a {
+    background-color: #03A9F4;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#button {
+    display: none;
+    padding: 25px;
+}
+
+#timer {
+    border: 2px solid salmon;
+    margin: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+span#text {
+    color: salmon;
+}
